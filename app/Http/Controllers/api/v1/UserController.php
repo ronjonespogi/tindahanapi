@@ -54,4 +54,9 @@ class UserController extends Controller
     {
         return Auth::user();
     }
+
+    public function test()
+    {
+        return ('yow what the fuck?');
+    }
 }
